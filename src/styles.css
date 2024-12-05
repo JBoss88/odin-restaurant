@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./wood.jpg');
+    background-size: cover;
+    background-color: #6a5029;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 40px;
+    padding: 10px 25px;
+    border-radius: 1em;
+    background-color: rgb(68, 49, 49);
+    color: wheat;
+}
+
+button:hover {
+    background-color: rgb(91, 67, 67);
+}
+
+.menu {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.homeContent,
+.menuContent,
+.aboutContent {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    height: 600px;
+    width: 700px;
+    text-align: center;
+    border-radius: 30px;
+    color: wheat;
+    background-color: rgb(92, 57, 57);
+    font-size: 30px;
+}
