@@ -94,6 +94,29 @@ button:hover {
     grid-area: 5 / 1 / 6 / 4;
 }
 
+@font-face {
+    font-family: 'Josefin Slab';
+    src: url('./Josefin_Slab/JosefinSlab-VariableFont_wght.ttf');
+}
+
+.homeText1,
+.homeText2,
+.homeAddress,
+.homeNumber,
+.pizza-text,
+.fries-text,
+.wings-text {
+    font-family: 'Josefin Slab';
+    font-size: 30px;
+}
+
+.owner,
+.established,
+.faqLink {
+    font-family: 'Josefin Slab';
+    font-size: 40px;
+}
+
 .pizza-img {
     grid-row: 2 / 3;
 }
