@@ -21,7 +21,7 @@ export const renderAbout = () => {
     faqLink.href = 'https://www.espn.com/';
     faqLink.target = '__blank';
     faqLink.textContent = "FAQ's";
-
-    aboutContent.append(aboutTitle, owner, established, faq, faqLink);
+    faq.append(faqLink);
+    aboutContent.append(aboutTitle, owner, established, faq);
     content.append(aboutContent);
 }
